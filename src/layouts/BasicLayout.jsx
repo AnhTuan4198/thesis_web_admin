@@ -27,15 +27,18 @@ const noMatch = (
 );
 
 /** Use Authorized check all menu item */
-const menuDataRender = (menuList) =>
-  menuList.map((item) => {
+const menuDataRender = (menuList) =>{
+
+  // console.log(menuList);
+  return menuList.map((item) => {
     const localItem = {
       ...item,
       children: item.children ? menuDataRender(item.children) : undefined,
     };
+    console.log(localItem)
     return Authorized.check(item.authority, localItem, null);
   });
-
+}
 const defaultFooterDom = (
   <DefaultFooter
     copyright={`${new Date().getFullYear()} 蚂蚁集团体验技术部出品`}

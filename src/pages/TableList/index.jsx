@@ -216,10 +216,9 @@ const TableList = () => {
           defaultMessage: '查询表格',
         })}
         actionRef={actionRef}
+        
         rowKey="key"
-        search={{
-          labelWidth: 120,
-        }}
+        search={false}
         toolBarRender={() => [
           <Button
             type="primary"
@@ -231,7 +230,10 @@ const TableList = () => {
             <PlusOutlined /> <FormattedMessage id="pages.searchTable.new" defaultMessage="新建" />
           </Button>,
         ]}
-        request={(params, sorter, filter) => queryRule({ ...params, sorter, filter })}
+        request={(params, sorter, filter) => {
+            console.log(`this is params:${JSON.stringify(params)}`)
+          return queryRule({ ...params, sorter, filter })
+        }}
         columns={columns}
         rowSelection={{
           onChange: (_, selectedRows) => {

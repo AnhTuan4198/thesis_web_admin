@@ -24,14 +24,11 @@ export default [
             authority: ['admin', 'user'],
             routes: [
               {
-                path: '/',
-                redirect: '/welcome',
-              },
-              {
                 path: '/welcome',
                 name: 'welcome',
                 icon: 'smile',
                 component: './Welcome',
+                authority:['admin','user']
               },
               {
                 path: '/admin',
@@ -54,6 +51,7 @@ export default [
                 icon: 'table',
                 path: '/list',
                 component: './TableList',
+                authority:['admin']
               },
               {
                 component: './404',

@@ -41,6 +41,7 @@ function getRule(req, res, u) {
 
   const { current = 1, pageSize = 10 } = req.query;
   const params = parse(realUrl, true).query;
+  // console.log(`This is params:${params}`)
   let dataSource = [...tableListDataSource].slice((current - 1) * pageSize, current * pageSize);
   const sorter = JSON.parse(params.sorter);
 
