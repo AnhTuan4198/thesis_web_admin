@@ -4,6 +4,10 @@ export default [
     component: '../layouts/BlankLayout',
     routes: [
       {
+        path:"/",
+        redirect:"/user/login"
+      },
+      {
         path: '/user',
         component: '../layouts/UserLayout',
         routes: [

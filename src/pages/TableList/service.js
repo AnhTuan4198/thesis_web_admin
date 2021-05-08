@@ -1,8 +1,9 @@
 import request from '@/utils/request';
 
 export async function queryRule(params) {
+  console.log(params);
   return request('/api/rule', {
-    params,
+    params
   });
 }
 export async function removeRule(params) {

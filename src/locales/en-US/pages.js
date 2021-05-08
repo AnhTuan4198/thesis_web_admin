@@ -30,8 +30,8 @@ export default {
     'Umi ui is now released, welcome to use npm run ui to start the experience.',
   'pages.searchTable.createForm.newRule': 'New Rule',
   'pages.searchTable.updateForm.ruleConfig': 'Rule configuration',
-  'pages.searchTable.updateForm.basicConfig': 'Basic Information',
-  'pages.searchTable.updateForm.ruleName.nameLabel': 'Rule Name',
+  'pages.searchTable.updateForm.basicConfig': 'WiFi Config',
+  'pages.searchTable.updateForm.ruleName.nameLabel': 'Device ID',
   'pages.searchTable.updateForm.ruleName.nameRules': 'Please enter the rule name!',
   'pages.searchTable.updateForm.ruleDesc.descLabel': 'Rule Description',
   'pages.searchTable.updateForm.ruleDesc.descPlaceholder': 'Please enter at least five characters',
@@ -65,4 +65,7 @@ export default {
   'pages.searchTable.tenThousand': '0000',
   'pages.searchTable.batchDeletion': 'bacth deletion',
   'pages.searchTable.batchApproval': 'batch approval',
+  'pages.searchTable.updateForm.serviceId.serviceLabel':'Service ID',
+  'pages.searchTable.updateForm.serviceType.serviceTypeLabel':'Service Type',
+  'pages.searchTable.updateForm.gate.gateLabel':'Gate',
 };

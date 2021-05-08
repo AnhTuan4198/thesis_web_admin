@@ -4,14 +4,15 @@
  * @see You can view component api by: https://github.com/ant-design/ant-design-pro-layout
  */
 import ProLayout, { DefaultFooter, SettingDrawer } from '@ant-design/pro-layout';
-import React, { useEffect, useMemo, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link, useIntl, connect, history } from 'umi';
 import { GithubOutlined } from '@ant-design/icons';
 import { Result, Button } from 'antd';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
-import { getMatchMenu } from '@umijs/route-utils';
+import {getAuthorityFromRouter} from '../utils/utils';
 import logo from '../assets/logo.svg';
+import { getAuthority } from '@/utils/authority';
 
 const noMatch = (
   <Result
@@ -35,7 +36,6 @@ const menuDataRender = (menuList) =>{
       ...item,
       children: item.children ? menuDataRender(item.children) : undefined,
     };
-    console.log(localItem)
     return Authorized.check(item.authority, localItem, null);
   });
 }
@@ -93,13 +93,21 @@ const BasicLayout = (props) => {
     }
   }; // get children authority
 
-  const authorized = useMemo(
-    () =>
-      getMatchMenu(location.pathname || '/', menuDataRef.current).pop() || {
-        authority: undefined,
-      },
-    [location.pathname],
-  );
+  // const authorized = useMemo(
+  //   () =>
+  //     getMatchMenu(location.pathname || '/', menuDataRef.current).pop() || {
+  //       authority: undefined,
+  //     },
+  //   [location.pathname],
+  // );
+
+  const currentAuthority = getAuthority();
+  console.log(` currrent authority : ${currentAuthority}`);
+  const authorized = getAuthorityFromRouter(props.route.routes ,location.pathname || '/' ) || {
+    authority:undefined,
+  };
+  
+  console.log(authorized);
   const { formatMessage } = useIntl();
   return (
     <>

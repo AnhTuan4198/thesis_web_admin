@@ -14,17 +14,19 @@ import { queryRule, updateRule, addRule, removeRule } from './service';
  * @param fields
  */
 
+const waitText = "Waiting";
+
 const handleAdd = async (fields) => {
-  const hide = message.loading('正在添加');
+  const hide = message.loading( waitText);
 
   try {
     await addRule({ ...fields });
     hide();
-    message.success('添加成功');
+    message.success('Add new device success');
     return true;
   } catch (error) {
     hide();
-    message.error('添加失败请重试！');
+    message.error('Can not add new device！');
     return false;
   }
 };
@@ -35,7 +37,7 @@ const handleAdd = async (fields) => {
  */
 
 const handleUpdate = async (fields) => {
-  const hide = message.loading('正在配置');
+  const hide = message.loading(waitText);
 
   try {
     await updateRule({
@@ -44,11 +46,11 @@ const handleUpdate = async (fields) => {
       key: fields.key,
     });
     hide();
-    message.success('配置成功');
+    message.success('Update success');
     return true;
   } catch (error) {
     hide();
-    message.error('配置失败请重试！');
+    message.error('Update failed！');
     return false;
   }
 };
@@ -59,7 +61,7 @@ const handleUpdate = async (fields) => {
  */
 
 const handleRemove = async (selectedRows) => {
-  const hide = message.loading('正在删除');
+  const hide = message.loading(waitText);
   if (!selectedRows) return true;
 
   try {
@@ -67,11 +69,11 @@ const handleRemove = async (selectedRows) => {
       key: selectedRows.map((row) => row.key),
     });
     hide();
-    message.success('删除成功，即将刷新');
+    message.success('Delete device success');
     return true;
   } catch (error) {
     hide();
-    message.error('删除失败，请重试');
+    message.error('Cannot delete this device');
     return false;
   }
 };
@@ -94,11 +96,10 @@ const TableList = () => {
       title: (
         <FormattedMessage
           id="pages.searchTable.updateForm.ruleName.nameLabel"
-          defaultMessage="规则名称"
+          defaultMessage="Device ID"
         />
       ),
-      dataIndex: 'name',
-      tip: '规则名称是唯一的 key',
+      dataIndex: 'deviceId',
       render: (dom, entity) => {
         return (
           <a
@@ -113,51 +114,18 @@ const TableList = () => {
       },
     },
     {
-      title: <FormattedMessage id="pages.searchTable.titleDesc" defaultMessage="描述" />,
-      dataIndex: 'desc',
-      valueType: 'textarea',
+      title:(<FormattedMessage id="pages.searchTable.updateForm.serviceId.serviceLabel" defaultMessage="Service ID" />),
+      dataIndex:"serviceId",
+
     },
     {
-      title: <FormattedMessage id="pages.searchTable.titleCallNo" defaultMessage="服务调用次数" />,
-      dataIndex: 'callNo',
-      sorter: true,
-      hideInForm: true,
-      renderText: (val) =>
-        `${val}${intl.formatMessage({
-          id: 'pages.searchTable.tenThousand',
-          defaultMessage: ' 万 ',
-        })}`,
+      title:(<FormattedMessage id="pages.searchTable.updateForm.serviceType.serviceTypeLabel" defaultMessage="Service Type" />),
+      dataIndex:"serviceType",
+      
     },
     {
-      title: <FormattedMessage id="pages.searchTable.titleStatus" defaultMessage="状态" />,
-      dataIndex: 'status',
-      hideInForm: true,
-      valueEnum: {
-        0: {
-          text: (
-            <FormattedMessage id="pages.searchTable.nameStatus.default" defaultMessage="关闭" />
-          ),
-          status: 'Default',
-        },
-        1: {
-          text: (
-            <FormattedMessage id="pages.searchTable.nameStatus.running" defaultMessage="运行中" />
-          ),
-          status: 'Processing',
-        },
-        2: {
-          text: (
-            <FormattedMessage id="pages.searchTable.nameStatus.online" defaultMessage="已上线" />
-          ),
-          status: 'Success',
-        },
-        3: {
-          text: (
-            <FormattedMessage id="pages.searchTable.nameStatus.abnormal" defaultMessage="异常" />
-          ),
-          status: 'Error',
-        },
-      },
+      title:(<FormattedMessage id="pages.searchTable.updateForm.gate.gateLabel" defaultMessage="Gate" />),
+      dataIndex:"gate",
     },
     {
       title: (
@@ -196,14 +164,12 @@ const TableList = () => {
         <a
           key="config"
           onClick={() => {
+            
             handleUpdateModalVisible(true);
             setCurrentRow(record);
           }}
         >
           <FormattedMessage id="pages.searchTable.config" defaultMessage="配置" />
-        </a>,
-        <a key="subscribeAlert" href="https://procomponents.ant.design/">
-          <FormattedMessage id="pages.searchTable.subscribeAlert" defaultMessage="订阅警报" />
         </a>,
       ],
     },
@@ -231,8 +197,8 @@ const TableList = () => {
           </Button>,
         ]}
         request={(params, sorter, filter) => {
-            console.log(`this is params:${JSON.stringify(params)}`)
-          return queryRule({ ...params, sorter, filter })
+          const result =  queryRule({ ...params, sorter, filter })
+          return result
         }}
         columns={columns}
         rowSelection={{
@@ -334,6 +300,7 @@ const TableList = () => {
           handleUpdateModalVisible(false);
           setCurrentRow(undefined);
         }}
+        handleUpdateModalVisible = {handleUpdateModalVisible}
         updateModalVisible={updateModalVisible}
         values={currentRow || {}}
       />
