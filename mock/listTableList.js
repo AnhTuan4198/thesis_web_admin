@@ -171,7 +171,25 @@ function postRule(req, res, u, b) {
   res.json(result);
 }
 
+function configWifi(req,res){
+  console.log(`request body: ${JSON.stringify(req.body)}`);
+  console.log(`request params:${JSON.stringify(req.params)}`);
+  return res.status(200).json({
+    Message:"Configuration success",
+  });
+}
+
+function serviceConfig(req,res){
+  console.log(`request body: ${JSON.stringify(req.body)}`);
+  console.log(`request params:${JSON.stringify(req.params)}`);
+  return res.status(200).json({
+    Message: 'Configuration success',
+  });
+}
 export default {
   'GET /api/rule': getRule,
   'POST /api/rule': postRule,
+  'POST /api/wifi/:deviceId':configWifi,
+  'POST /api/service/:deviceId':serviceConfig 
+
 };

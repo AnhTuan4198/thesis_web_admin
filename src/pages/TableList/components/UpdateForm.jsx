@@ -1,17 +1,11 @@
 import React,{useState} from 'react';
-import {Button, Buttont, Modal } from 'antd';
-import ProForm,{
+import { 
   ModalForm,
-  ProFormSelect,
-  ProFormText,
-  ProFormTextArea,
-  StepsForm,
   ProFormRadio,
-  ProFormDateTimePicker,
-  ProFormGroup,
+  ProFormText,
 } from '@ant-design/pro-form';
-import { useIntl, FormattedMessage } from 'umi';
-import { isTypeOperatorNode } from 'typescript';
+import {configService, configWifi} from '../service';
+import { message } from 'antd';
 
 const UpdateForm = (props) => {
   
@@ -19,39 +13,75 @@ const UpdateForm = (props) => {
   const [configOption, setConfigOption] =useState("WifiConfiuration");
 
   const options =[
-    "WifiConfiuration",
-    "AddToService"
+    "WiFi Configuration",
+    "Add To Service"
   ]
-
   return (
     <ModalForm
-      stepsProps={{
-        size: 'small',
-      }}
       visible={updateModalVisible}
       onVisibleChange={handleUpdateModalVisible}
-      onFinish={()=>{
-        console.log(`hello!`);
-      }}
-      render={()=>{
+      onFinish={async (values) => {
+        let result;
 
-      }} 
+        if(configOption === options[0]){
+          const wifiConfig ={...values};
+          const payload = {
+            wifiConfig,
+            deviceId:props.values.deviceId
+          }
+          result = await configWifi(payload);
+        }else if( configOption === options[1]){
+          const serviceConfig = {...values}
+          const payload ={
+            serviceConfig,
+            deviceId:props.values.deviceId
+          }
+          
+          result = await configService(payload)
+        }
+
+        if(result){
+          message.success(`Message: ${result.Message}`)
+          props.setCurrentRow(undefined)
+          handleUpdateModalVisible(false);
+          if(props.actionRef.current){
+            props.actionRef.current.reload();
+          }
+          return result
+        }
+      }}
     >
       <ProFormRadio.Group
-             style={{
-                margin: 16,
-             }}
-            radioType="button"
-            fieldProps={{      
-              value:configOption,    
-              onChange:(e)=>{
-                setConfigOption(e.target.value);
-              }
-            }}
-            options={['1', '2']}
+        style={{
+          margin: 16,
+        }}
+        radioType="button"
+        fieldProps={{
+          value: configOption,
+          onChange: (e) => {
+            setConfigOption(e.target.value);
+          },
+        }}
+        options={options}
       />
-      {}
-      {}
+      {configOption === options[0] && (
+        <>
+          <ProFormText name="ssid" label="WiFi SSID" placeholder="Wifi config ssid" />
+
+          <ProFormText.Password
+            name="password"
+            label="WiFi password"
+            placeholder="Wifi config password"
+          />
+        </>
+      )}
+      {configOption === options[1] && (
+        <>
+          <ProFormText name="serviceType" label="serviceType" placeholder="Your service type" />
+          <ProFormText name="serviceId" label="serviceName" placeholder="Your service id" />
+          <ProFormText name="gate" label="Service gate" placeholder="Your service gate" />
+        </>
+      )}
     </ModalForm>
   );
 };

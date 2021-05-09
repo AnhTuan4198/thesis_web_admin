@@ -22,5 +22,20 @@ export async function updateRule(params) {
   return request('/api/rule', {
     method: 'POST',
     data: { ...params, method: 'update' },
+
   });
+}
+
+export async function configWifi(payload){
+  return request(`/api/wifi/${payload.deviceId}`,{
+    method:"POST",
+    data:{...payload},
+  })
+}
+
+export async function configService(payload){
+  return request(`/api/service/${payload.deviceId}`,{
+    method:"POST",
+    data:{...payload},
+  })
 }

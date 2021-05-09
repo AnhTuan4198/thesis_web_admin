@@ -284,18 +284,20 @@ const TableList = () => {
         <ProFormTextArea width="md" name="desc" />
       </ModalForm>
       <UpdateForm
-        onSubmit={async (value) => {
-          const success = await handleUpdate(value);
+        // onSubmit={async (value) => {
+        //   const success = await handleUpdate(value);
 
-          if (success) {
-            handleUpdateModalVisible(false);
-            setCurrentRow(undefined);
+        //   if (success) {
+        //     handleUpdateModalVisible(false);
+        //     setCurrentRow(undefined);
 
-            if (actionRef.current) {
-              actionRef.current.reload();
-            }
-          }
-        }}
+        //     if (actionRef.current) {
+        //       actionRef.current.reload();
+        //     }
+        //   }
+        // }}
+        setCurrentRow ={setCurrentRow}
+        actionRef = {actionRef}
         onCancel={() => {
           handleUpdateModalVisible(false);
           setCurrentRow(undefined);

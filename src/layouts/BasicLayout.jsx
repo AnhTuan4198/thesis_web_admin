@@ -10,9 +10,8 @@ import { GithubOutlined } from '@ant-design/icons';
 import { Result, Button } from 'antd';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
-import {getAuthorityFromRouter} from '../utils/utils';
+import { getAuthorityFromRouter } from '../utils/utils';
 import logo from '../assets/logo.svg';
-import { getAuthority } from '@/utils/authority';
 
 const noMatch = (
   <Result
@@ -101,13 +100,10 @@ const BasicLayout = (props) => {
   //   [location.pathname],
   // );
 
-  const currentAuthority = getAuthority();
-  console.log(` currrent authority : ${currentAuthority}`);
   const authorized = getAuthorityFromRouter(props.route.routes ,location.pathname || '/' ) || {
     authority:undefined,
   };
   
-  console.log(authorized);
   const { formatMessage } = useIntl();
   return (
     <>
