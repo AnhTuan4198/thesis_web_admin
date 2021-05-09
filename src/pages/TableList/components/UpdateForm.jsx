@@ -47,8 +47,8 @@ const UpdateForm = (props) => {
           if(props.actionRef.current){
             props.actionRef.current.reload();
           }
-          return result
         }
+        return result
       }}
     >
       <ProFormRadio.Group

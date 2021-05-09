@@ -14,6 +14,7 @@ export default [
           {
             name: 'login',
             path: '/user/login',
+            exact:true,
             component: './User/login',
           },
         ],
@@ -28,32 +29,9 @@ export default [
             authority: ['admin', 'user'],
             routes: [
               {
-                path: '/welcome',
-                name: 'welcome',
-                icon: 'smile',
-                component: './Welcome',
-                authority:['admin','user']
-              },
-              {
-                path: '/admin',
-                name: 'admin',
-                icon: 'crown',
-                component: './Admin',
-                authority: ['admin'],
-                routes: [
-                  {
-                    path: '/admin/sub-page',
-                    name: 'sub-page',
-                    icon: 'smile',
-                    component: './Welcome',
-                    authority: ['admin'],
-                  },
-                ],
-              },
-              {
-                name: 'list.table-list',
+                name: 'Devices',
                 icon: 'table',
-                path: '/list',
+                path: '/devices',
                 component: './TableList',
                 authority:['admin']
               },

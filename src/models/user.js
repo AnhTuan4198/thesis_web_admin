@@ -1,4 +1,5 @@
 import { queryCurrent, query as queryUsers } from '@/services/user';
+
 const UserModel = {
   namespace: 'user',
   state: {
@@ -25,7 +26,6 @@ const UserModel = {
     saveCurrentUser(state, action) {
       return { ...state, currentUser: action.payload || {} };
     },
-
     changeNotifyCount(
       state = {
         currentUser: {},

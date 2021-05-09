@@ -7,7 +7,7 @@ import ProTable from '@ant-design/pro-table';
 import { ModalForm, ProFormText, ProFormTextArea } from '@ant-design/pro-form';
 import ProDescriptions from '@ant-design/pro-descriptions';
 import UpdateForm from './components/UpdateForm';
-import { queryRule, updateRule, addRule, removeRule } from './service';
+import { queryRule, addRule, removeRule } from './service';
 /**
  * 添加节点
  *
@@ -36,24 +36,6 @@ const handleAdd = async (fields) => {
  * @param fields
  */
 
-const handleUpdate = async (fields) => {
-  const hide = message.loading(waitText);
-
-  try {
-    await updateRule({
-      name: fields.name,
-      desc: fields.desc,
-      key: fields.key,
-    });
-    hide();
-    message.success('Update success');
-    return true;
-  } catch (error) {
-    hide();
-    message.error('Update failed！');
-    return false;
-  }
-};
 /**
  * 删除节点
  *
