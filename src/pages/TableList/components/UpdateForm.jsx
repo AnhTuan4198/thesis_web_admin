@@ -78,7 +78,7 @@ const UpdateForm = (props) => {
       {configOption === options[1] && (
         <>
           <ProFormText name="serviceType" label="serviceType" placeholder="Your service type" />
-          <ProFormText name="serviceId" label="serviceName" placeholder="Your service id" />
+          <ProFormText name="serviceName" label="serviceName" placeholder="Your service id" />
           <ProFormText name="gate" label="Service gate" placeholder="Your service gate" />
         </>
       )}

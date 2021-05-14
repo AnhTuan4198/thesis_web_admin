@@ -14,13 +14,10 @@ async function getFakeCaptcha(req, res) {
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
+    name: 'Admin',
     avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
     email: 'antdesign@alipay.com',
-    signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁集团－某某某事业群－某某平台部－某某技术部－UED',
     tags: [
       {
         key: '0',
@@ -48,7 +45,7 @@ export default {
       },
     ],
     notifyCount: 12,
-    unreadCount: 11,
+    unreadCount: 0,
     country: 'China',
     geographic: {
       province: {

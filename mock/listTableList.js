@@ -3,6 +3,7 @@ import { ConsoleSqlOutlined } from '@ant-design/icons';
 import { parse } from 'url';
 import shortid from 'shortid';
 import { match } from 'assert';
+import { abort } from 'process';
 // mock tableListDataSource
 const genList = (current, pageSize) => {
   const tableListDataSource = [];
@@ -10,7 +11,7 @@ const genList = (current, pageSize) => {
   for (let i = 0; i < pageSize; i += 1) {
     const index = (current - 1) * 10 + i;
     tableListDataSource.push({
-      key: index,
+      key: shortid.generate(),
       deviceId: shortid.generate(),
       serviceId:shortid.generate(),
       serviceType:"cinema",
@@ -186,10 +187,100 @@ function serviceConfig(req,res){
     Message: 'Configuration success',
   });
 }
+
+const genServiceList = (max)=>{
+  const type = ["Cinema","Resort","Food","Movie"];
+  const list =[];
+  for(let i = 0;i <max;i++){
+    list.push({
+      key:shortid.generate(),
+      id:Math.ceil(Math.random()*100),
+      serviceType:type[Math.ceil(Math.random()*3)],
+      serviceName:`Service ${Math.ceil(Math.random()*100)}`
+    })
+  }
+  return list;
+}
+
+function queryServiceByType(req,res){
+  const {current ,pageSize} =req.query;
+  let start = (current-1)*pageSize;
+  let end  =current * pageSize;
+  
+  const data = genServiceList(100);
+  
+  const result = [...data].slice(start,end);
+  return res.status(200).json({
+    data:result,
+    success:true,
+    total:data.length,
+    current: parseInt(current,10)||1,
+    pageSize
+  })
+}
+
+function genDetailList(serviceId ,number){
+  let data= [];
+  if(serviceId == 81  ){
+    for(let i = 0; i< number ; i++){
+      const object ={
+         id:Math.ceil(Math.random()*100),
+        foodKind:"Drink",
+        foodName:"Some kind of food",
+        price:300,
+        location:"sector A"
+      }
+      data.push(object)
+    }
+   
+  }else if(serviceId == 97){
+    for(let i = 0; i< number ; i++){
+      const object ={
+         id:Math.ceil(Math.random()*100),
+        resortName:"Name of resort"
+      }
+      data.push(object)
+    }
+    
+  }else if (serviceId == 30){
+    for(let i = 0; i< number ; i++){
+      const object ={
+        id:Math.ceil(Math.random()*100),
+        movieName:"Name of movie",
+        performanceTime:"Time",
+        theater: `Theater ${Math.ceil(Math.random()*10)}`,
+        availableSeat:20
+      }
+      data.push(object)
+    }
+    
+  }
+  return data;
+}
+
+
+function queryServiceDetail(req,res){
+   console.log(`this is params:${JSON.stringify(req.params)}`)
+  console.log(`this is query:${JSON.stringify(req.query)}`);
+  const {current ,pageSize} =req.query;
+  let start = (current-1)*pageSize;
+  let end  =current * pageSize;
+  const dataSource = genDetailList(req.params.serviceId,5);
+  const result = [...dataSource].slice(start,end);
+  return res.status(200).json({
+    data:result,
+    success:true,
+    total:dataSource.length,
+    pageSize,
+    current:parseInt(current,10)||1
+  })
+}
+
 export default {
   'GET /api/rule': getRule,
   'POST /api/rule': postRule,
   'POST /api/wifi/:deviceId':configWifi,
-  'POST /api/service/:deviceId':serviceConfig 
-
+  'POST /api/service/:deviceId':serviceConfig ,
+  'GET /api/services/':queryServiceByType,
+  'GET /api/services/:serviceId':queryServiceDetail
 };

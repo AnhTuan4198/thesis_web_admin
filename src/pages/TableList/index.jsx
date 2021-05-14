@@ -1,4 +1,3 @@
-import { PlusOutlined } from '@ant-design/icons';
 import { Button, message, Input, Drawer } from 'antd';
 import React, { useState, useRef } from 'react';
 import { useIntl, FormattedMessage } from 'umi';
@@ -96,9 +95,8 @@ const TableList = () => {
       },
     },
     {
-      title:(<FormattedMessage id="pages.searchTable.updateForm.serviceId.serviceLabel" defaultMessage="Service ID" />),
-      dataIndex:"serviceId",
-
+      title:(<FormattedMessage id="pages.searchTable.updateForm.serviceName.serviceLabel" defaultMessage="Service Name" />),
+      dataIndex:"serviceName",
     },
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.serviceType.serviceTypeLabel" defaultMessage="Service Type" />),
@@ -164,20 +162,15 @@ const TableList = () => {
           defaultMessage: '查询表格',
         })}
         actionRef={actionRef}
-        
+        pagination={{
+          showTotal:false,
+          pageSize:10
+        }}
+        params={{
+          pageSize:10
+        }}
         rowKey="key"
         search={false}
-        toolBarRender={() => [
-          <Button
-            type="primary"
-            key="primary"
-            onClick={() => {
-              handleModalVisible(true);
-            }}
-          >
-            <PlusOutlined /> <FormattedMessage id="pages.searchTable.new" defaultMessage="新建" />
-          </Button>,
-        ]}
         request={(params, sorter, filter) => {
           const result =  queryRule({ ...params, sorter, filter })
           return result
@@ -191,28 +184,6 @@ const TableList = () => {
       />
       {selectedRowsState?.length > 0 && (
         <FooterToolbar
-          extra={
-            <div>
-              <FormattedMessage id="pages.searchTable.chosen" defaultMessage="已选择" />{' '}
-              <a
-                style={{
-                  fontWeight: 600,
-                }}
-              >
-                {selectedRowsState.length}
-              </a>{' '}
-              <FormattedMessage id="pages.searchTable.item" defaultMessage="项" />
-              &nbsp;&nbsp;
-              <span>
-                <FormattedMessage
-                  id="pages.searchTable.totalServiceCalls"
-                  defaultMessage="服务调用次数总计"
-                />{' '}
-                {selectedRowsState.reduce((pre, item) => pre + item.callNo, 0)}{' '}
-                <FormattedMessage id="pages.searchTable.tenThousand" defaultMessage="万" />
-              </span>
-            </div>
-          }
         >
           <Button
             onClick={async () => {
@@ -266,18 +237,6 @@ const TableList = () => {
         <ProFormTextArea width="md" name="desc" />
       </ModalForm>
       <UpdateForm
-        // onSubmit={async (value) => {
-        //   const success = await handleUpdate(value);
-
-        //   if (success) {
-        //     handleUpdateModalVisible(false);
-        //     setCurrentRow(undefined);
-
-        //     if (actionRef.current) {
-        //       actionRef.current.reload();
-        //     }
-        //   }
-        // }}
         setCurrentRow ={setCurrentRow}
         actionRef = {actionRef}
         onCancel={() => {

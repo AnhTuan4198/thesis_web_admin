@@ -21,7 +21,7 @@ const Model = {
       if (response.status === 'ok') {
         const urlParams = new URL(window.location.href);
         const params = getPageQuery();
-        message.success('🎉 🎉 🎉  登录成功！');
+        message.success('🎉 🎉 🎉  Login successful！');
         let { redirect } = params;
 
         if (redirect) {
@@ -34,12 +34,11 @@ const Model = {
               redirect = redirect.substr(redirect.indexOf('#') + 1);
             }
           } else {
-            window.location.href = '/welcome';
+            window.location.href = '/devices';
             return;
           }
         }
-
-        history.replace(redirect || '/welcome');
+        history.replace(redirect || '/devices');
       }
     },
 

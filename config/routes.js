@@ -36,6 +36,13 @@ export default [
                 authority:['admin']
               },
               {
+                name: 'Services',
+                icon: 'table',
+                path: '/services',
+                component: './ServiceTable',
+                authority:['admin']
+              },
+              {
                 component: './404',
               },
             ],

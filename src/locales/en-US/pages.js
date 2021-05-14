@@ -1,8 +1,11 @@
 export default {
+  'pages.layouts.dropdown.center':'Center',
+  'pages.layouts.dropdown.Setting':'Setting',
+  "pages.layouts.dropdown.Logout":'Log out',
   'pages.layouts.userLayout.title':
-    'Ant Design is the most influential web design specification in Xihu district',
+    'Web admin use for configuration devices and manage services',
   'pages.login.accountLogin.tab': 'Account Login',
-  'pages.login.accountLogin.errorMessage': 'Incorrect username/password（admin/ant.design)',
+  'pages.login.accountLogin.errorMessage': 'Incorrect username/password',
   'pages.login.username.placeholder': 'Username: admin or user',
   'pages.login.username.required': 'Please input your username!',
   'pages.login.password.placeholder': 'Password: ant.design',
@@ -44,6 +47,7 @@ export default {
   'pages.searchTable.updateForm.schedulingPeriod.title': 'Set Scheduling Period',
   'pages.searchTable.updateForm.schedulingPeriod.timeLabel': 'Starting Time',
   'pages.searchTable.updateForm.schedulingPeriod.timeRules': 'Please choose a start time!',
+  'pages.searchTable.updateForm.serviceName.serviceLabel':'Service Name',
   'pages.searchTable.titleDesc': 'Description',
   'pages.searchTable.ruleName': 'Rule name is required',
   'pages.searchTable.titleCallNo': 'Number of Service Calls',
@@ -68,4 +72,7 @@ export default {
   'pages.searchTable.updateForm.serviceId.serviceLabel':'Service ID',
   'pages.searchTable.updateForm.serviceType.serviceTypeLabel':'Service Type',
   'pages.searchTable.updateForm.gate.gateLabel':'Gate',
+  'pages.service.searchTable.title':"List Service",
+  'pages.menu.slider.Title':'Web admin'
+
 };

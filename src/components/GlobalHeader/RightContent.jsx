@@ -48,7 +48,7 @@ const GlobalHeaderRight = (props) => {
         //   //console.log('input', value);
         // }}
       />
-      <Tooltip title="使用文档">
+      <Tooltip title="Tips">
         <a
           style={{
             color: 'inherit',

@@ -5,13 +5,13 @@
  */
 import ProLayout, { DefaultFooter, SettingDrawer } from '@ant-design/pro-layout';
 import React, { useEffect, useRef } from 'react';
-import { Link, useIntl, connect, history } from 'umi';
+import { Link, useIntl, connect, history,FormattedMessage } from 'umi';
 import { GithubOutlined } from '@ant-design/icons';
 import { Result, Button } from 'antd';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
 import { getAuthorityFromRouter } from '../utils/utils';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 
 const noMatch = (
   <Result
@@ -40,24 +40,24 @@ const menuDataRender = (menuList) =>{
 }
 const defaultFooterDom = (
   <DefaultFooter
-    copyright={`${new Date().getFullYear()} 蚂蚁集团体验技术部出品`}
+    copyright="Copyright Web admin"
     links={[
       {
-        key: 'Ant Design Pro',
-        title: 'Ant Design Pro',
+        key: 'Web admin',
+        title: 'Web admin',
         href: 'https://pro.ant.design',
         blankTarget: true,
       },
       {
         key: 'github',
         title: <GithubOutlined />,
-        href: 'https://github.com/ant-design/ant-design-pro',
+        href: 'https://github.com/AnhTuan4198/thesis_web_admin',
         blankTarget: true,
       },
       {
-        key: 'Ant Design',
-        title: 'Ant Design',
-        href: 'https://ant.design',
+        key: 'HCMUT',
+        title: 'University of Technology',
+        href: 'https://www.hcmut.edu.vn/vi',
         blankTarget: true,
       },
     ]}
@@ -105,10 +105,15 @@ const BasicLayout = (props) => {
   };
   
   const { formatMessage } = useIntl();
+  const title = <FormattedMessage 
+    id="pages.menu.slider.Title"
+    defaultMessage="Web Admin"
+  />
   return (
     <>
       <ProLayout
         logo={logo}
+        title={title}
         formatMessage={formatMessage}
         {...props}
         {...settings}
