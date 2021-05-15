@@ -277,10 +277,10 @@ function queryServiceDetail(req,res){
 }
 
 export default {
-  'GET /api/rule': getRule,
+  'GET /api/devices': getRule,
   'POST /api/rule': postRule,
-  'POST /api/wifi/:deviceId':configWifi,
-  'POST /api/service/:deviceId':serviceConfig ,
+  'PUT /api/devices/:deviceId/wifi':configWifi,
+  'PUT /api/devices/:deviceId/service':serviceConfig ,
   'GET /api/services/':queryServiceByType,
   'GET /api/services/:serviceId':queryServiceDetail
 };

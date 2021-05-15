@@ -1,12 +1,12 @@
 import { Button, message, Input, Drawer } from 'antd';
 import React, { useState, useRef } from 'react';
-import { useIntl, FormattedMessage } from 'umi';
+import { useIntl, FormattedMessage,connect } from 'umi';
 import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
 import ProTable from '@ant-design/pro-table';
 import { ModalForm, ProFormText, ProFormTextArea } from '@ant-design/pro-form';
 import ProDescriptions from '@ant-design/pro-descriptions';
 import UpdateForm from './components/UpdateForm';
-import { queryRule, addRule, removeRule } from './service';
+import { queryDeviceList, addRule, removeRule } from './service';
 /**
  * 添加节点
  *
@@ -59,7 +59,7 @@ const handleRemove = async (selectedRows) => {
   }
 };
 
-const TableList = () => {
+const TableList = (props) => {
   /** 新建窗口的弹窗 */
   const [createModalVisible, handleModalVisible] = useState(false);
   /** 分布更新窗口的弹窗 */
@@ -70,8 +70,9 @@ const TableList = () => {
   const [currentRow, setCurrentRow] = useState();
   const [selectedRowsState, setSelectedRows] = useState([]);
   /** 国际化配置 */
-
+  const {dispatch} = props;
   const intl = useIntl();
+ 
   const columns = [
     {
       title: (
@@ -80,7 +81,7 @@ const TableList = () => {
           defaultMessage="Device ID"
         />
       ),
-      dataIndex: 'deviceId',
+      dataIndex: 'moduleId',
       render: (dom, entity) => {
         return (
           <a
@@ -101,7 +102,6 @@ const TableList = () => {
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.serviceType.serviceTypeLabel" defaultMessage="Service Type" />),
       dataIndex:"serviceType",
-      
     },
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.gate.gateLabel" defaultMessage="Gate" />),
@@ -112,7 +112,7 @@ const TableList = () => {
         <FormattedMessage id="pages.searchTable.titleUpdatedAt" defaultMessage="上次调度时间" />
       ),
       sorter: true,
-      dataIndex: 'updatedAt',
+      dataIndex: 'createdAt',
       valueType: 'dateTime',
       renderFormItem: (item, { defaultRender, ...rest }, form) => {
         const status = form.getFieldValue('status');
@@ -171,8 +171,15 @@ const TableList = () => {
         }}
         rowKey="key"
         search={false}
-        request={(params, sorter, filter) => {
-          const result =  queryRule({ ...params, sorter, filter })
+        request={async (params) => {
+          const result = await queryDeviceList({ ...params})
+          
+          dispatch({
+            type:'table/saveDevicesTable',
+            payload:{
+              ...result
+            }
+          })
           return result
         }}
         columns={columns}
@@ -275,4 +282,8 @@ const TableList = () => {
   );
 };
 
-export default TableList;
+export default connect(({table})=>{
+  return {
+    devicesTable:table.devicesTable
+  }
+})(TableList);

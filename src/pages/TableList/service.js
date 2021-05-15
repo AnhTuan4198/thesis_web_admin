@@ -1,7 +1,8 @@
 import request from '@/utils/request';
 
-export async function queryRule(params) {
-  return request('/api/rule', {
+const prefix = "http://172.16.5.177:3030";
+export async function queryDeviceList(params) {
+  return request(`${prefix}/api/modules`, {
     params
   });
 }
@@ -26,15 +27,15 @@ export async function updateRule(params) {
 }
 
 export async function configWifi(payload){
-  return request(`/api/wifi/${payload.deviceId}`,{
-    method:"POST",
+  return request(`${prefix}/api/modules/${payload.deviceId}/wifi`,{
+    method:"P",
     data:{...payload},
   })
 }
 
 export async function configService(payload){
-  return request(`/api/service/${payload.deviceId}`,{
-    method:"POST",
+  return request(`${prefix}/api/modules/${payload.deviceId}/service`,{
+    method:"PUT",
     data:{...payload},
   })
 }
