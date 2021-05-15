@@ -27,20 +27,21 @@ const UpdateForm = (props) => {
           const wifiConfig ={...values};
           const payload = {
             wifiConfig,
-            deviceId:props.values.deviceId
+            moduleId:props.values.moduleId
           }
           result = await configWifi(payload);
         }else if( configOption === options[1]){
           const serviceConfig = {...values}
           const payload ={
             serviceConfig,
-            deviceId:props.values.deviceId
+            moduleId:props.values.moduleId
           }
           
           result = await configService(payload)
         }
 
         if(result){
+          console.log(window.location);
           message.success(`Message: ${result.Message}`)
           props.setCurrentRow(undefined)
           handleUpdateModalVisible(false);
@@ -77,8 +78,7 @@ const UpdateForm = (props) => {
       )}
       {configOption === options[1] && (
         <>
-          <ProFormText name="serviceType" label="serviceType" placeholder="Your service type" />
-          <ProFormText name="serviceName" label="serviceName" placeholder="Your service id" />
+          <ProFormText name="serviceName" label="Service Name" placeholder="Your service id" />
           <ProFormText name="gate" label="Service gate" placeholder="Your service gate" />
         </>
       )}

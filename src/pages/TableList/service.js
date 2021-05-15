@@ -1,6 +1,6 @@
 import request from '@/utils/request';
 
-const prefix = "http://172.16.5.177:3030";
+const prefix = "http://192.168.0.116:3030";
 export async function queryDeviceList(params) {
   return request(`${prefix}/api/modules`, {
     params
@@ -27,15 +27,17 @@ export async function updateRule(params) {
 }
 
 export async function configWifi(payload){
-  return request(`${prefix}/api/modules/${payload.deviceId}/wifi`,{
-    method:"P",
+  return request(`${prefix}/api/modules/${payload.moduleId}/wifi`,{
+    method:"PUT",
     data:{...payload},
   })
 }
 
 export async function configService(payload){
-  return request(`${prefix}/api/modules/${payload.deviceId}/service`,{
+  return request(`${prefix}/api/modules/${payload.moduleId}/service`,{
     method:"PUT",
-    data:{...payload},
+    data:{
+      ...payload
+    },
   })
 }

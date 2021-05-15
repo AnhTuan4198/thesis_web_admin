@@ -97,11 +97,11 @@ const TableList = (props) => {
     },
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.serviceName.serviceLabel" defaultMessage="Service Name" />),
-      dataIndex:"serviceName",
+      dataIndex:['serviceName','serviceName'],
     },
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.serviceType.serviceTypeLabel" defaultMessage="Service Type" />),
-      dataIndex:"serviceType",
+      dataIndex:['serviceName',"serviceType"],
     },
     {
       title:(<FormattedMessage id="pages.searchTable.updateForm.gate.gateLabel" defaultMessage="Gate" />),
