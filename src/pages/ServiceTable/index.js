@@ -55,6 +55,7 @@ export default function ServiceTable() {
                 </ProCard>
             </ProCard>
             <UpdateService
+                serviceActionRef={serviceActionRef}
                 addServiceVisible={updateServiceVisible}
                 setAddServiceVisible={setUpdateServiceVisible}
             />

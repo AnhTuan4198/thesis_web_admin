@@ -1,6 +1,6 @@
 import request from '@/utils/request';
 
-const prefix = "http://10.128.158.7:3030";
+const prefix = "http://192.168.0.116:3030";
 export async function queryDeviceList(params) {
   return request(`${prefix}/api/modules`, {
     params

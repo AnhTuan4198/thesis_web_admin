@@ -6,6 +6,8 @@ import FoodItems from './FoodItems';
 import MovieItem from './MovieItem';
 import ResortServices from './ResortServices';
 
+import {createService} from '../service';
+
 
 export default function UpdateService(props) {
   const options = {
@@ -23,19 +25,27 @@ export default function UpdateService(props) {
     },
   };
   const modalRef =useRef();
-  const { addServiceVisible, setAddServiceVisible } = props;
+  const { addServiceVisible, setAddServiceVisible,serviceActionRef } = props;
   const [serviceTypeOption, setServiceTypeOption] = useState(options.Food);
 
   
   return (
     <ModalForm
-        formRef={modalRef}
+     formRef={modalRef}
       title="Add new service"
       width={1080}
       visible={addServiceVisible}
       onVisibleChange={setAddServiceVisible}
       onFinish={(values) => {
-        console.log(values);
+        const payload = {
+          ...values,
+          serviceType:serviceTypeOption.serviceType
+
+        }
+        createService(payload);
+        modalRef.current?.resetFields();
+        serviceActionRef.current?.reload();
+        setAddServiceVisible(false);
       }}
     >
       <ProFormRadio.Group
