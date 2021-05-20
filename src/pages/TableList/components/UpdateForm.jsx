@@ -10,7 +10,7 @@ import { message } from 'antd';
 const UpdateForm = (props) => {
   
   const { updateModalVisible, handleUpdateModalVisible } = props;
-  const [configOption, setConfigOption] =useState("WifiConfiuration");
+  const [configOption, setConfigOption] =useState("Wifi Confiuration");
 
   const options =[
     "WiFi Configuration",
@@ -41,7 +41,6 @@ const UpdateForm = (props) => {
         }
 
         if(result){
-          console.log(window.location);
           message.success(`Message: ${result.Message}`)
           props.setCurrentRow(undefined)
           handleUpdateModalVisible(false);

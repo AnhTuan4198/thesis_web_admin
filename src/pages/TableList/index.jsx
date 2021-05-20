@@ -169,16 +169,16 @@ const TableList = (props) => {
         params={{
           pageSize:10
         }}
-        rowKey="key"
+        rowKey="moduleId"
         search={false}
         request={async (params) => {
           const result = await queryDeviceList({ ...params})
           
           dispatch({
             type:'table/saveDevicesTable',
-            payload:{
-              ...result
-            }
+            payload:[
+              ...result.data
+            ]
           })
           return result
         }}

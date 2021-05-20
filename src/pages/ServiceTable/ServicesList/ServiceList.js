@@ -1,27 +1,25 @@
 import ProTable from '@ant-design/pro-table';
-import React, { useRef } from 'react'
-import { useIntl } from 'umi'
+import { PlusOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
+import React from 'react'
+import { useIntl ,connect} from 'umi'
 import { queryServiceByType } from '../service';
 
-import style from './ServiceList.less'
+// import style from './ServiceList.less'
 
-export default function ServiceList(props) {
-    const { serviceType , onChange } = props;
+function ServiceList(props) {
+    const { serviceType , onChange ,dispatch, serviceRef, detailRef, setUpdateServiceVisible} = props;
+    
     const intl = useIntl();
-    const actionRef = useRef();
     const columns = [
-        {
-            title:"Service Id",
-            key:"id",
-            dataIndex:"id"
-        },
         {
             title:"Service Name",
             dataIndex:"serviceName"
         },
         {
             title:"Date",
-            dataIndex:"createdAt"
+            dataIndex:"createdAt",
+             valueType: 'dateTime',
         }
     ]
    
@@ -31,9 +29,18 @@ export default function ServiceList(props) {
                 id: 'pages.service.searchTable.title',
                 defaultMessage: "List Service",
             })}
+            toolBarRender={()=>(
+                <Button 
+                    key="button"
+                    icon={<PlusOutlined />} type="primary"
+                    onClick={()=>setUpdateServiceVisible(true)}
+                    >
+                  New service
+                </Button>
+            )}
             columns={columns}
             search={false}
-            rowKey="key"
+            rowKey="serviceName"
             pagination={{
                 showTotal:false,
                 pageSize:10
@@ -41,24 +48,17 @@ export default function ServiceList(props) {
             params={{
                 pageSize:10
             }}
-            rowClassName={
-                (record)=>{
-                    console.log(props.id);
-                    console.log(record.id)
-                    return record.id === props.id ? style["split-row-select-active"] 
- : ''
-                }
-            }
             onRow={(rowItem)=>{
                 return {
                     onClick:()=>{
-                        if(rowItem.id){
+                        if(rowItem["_id"]){
                             const options ={
                                 serviceType,
-                                id:rowItem.id
+                                id:rowItem['_id'],
                             }
-                            onChange(options)
+                            onChange(options);
                         }
+                        if(detailRef.current) detailRef.current.reload();
                     }
                 }
             }}
@@ -69,9 +69,20 @@ export default function ServiceList(props) {
                 }
                
                 const result = await queryServiceByType(queryOptions)
+                dispatch({
+                    type:'table/saveServiceTable',
+                    payload:[
+                        ...result.data
+                    ]
+                })
                 return result
             }}
-            actionRef={actionRef}
+            actionRef={serviceRef}
         />
     )
 }
+export default connect(({table})=>{
+  return {
+    servicesTable:table.servicesTable
+  }
+})(ServiceList);

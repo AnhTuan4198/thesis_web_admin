@@ -3,13 +3,8 @@ import { } from '../pages/TableList/service' ;
 const TableModel = {
   namespace: 'table',
   state: {
-       devicesTable: {
-        deviceList:[],
-        nextKey:undefined,
-        current:1,
-        pageSize:10,
-        total:0
-    },
+       devicesTable:[],
+      serviceTable:[]
   },
   effects: {
     *saveDevicesList({payload}, { put }) {
@@ -26,12 +21,21 @@ const TableModel = {
     saveDevicesTable(state,action){
         const {payload} = action;
         return {
-            ...state,devicesTable:{
+            ...state,devicesTable:[
                 ...payload
-            }
+          ]
         }
     },
    
+    saveServiceTable(state,action){
+      const{ payload } = action;
+      return {
+        ...state.Table,
+        servicesTable:{
+          ...payload
+        }
+      }
+    }
     
   },
 };

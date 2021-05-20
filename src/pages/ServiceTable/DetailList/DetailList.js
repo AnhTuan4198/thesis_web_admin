@@ -16,10 +16,7 @@ const columnOptions ={
             title:"Price",
             dataIndex:"price"
         },
-        {
-            title:"Location",
-            dataIndex:"location"
-        },
+        
     ],
     Resort:[
         {
@@ -41,7 +38,7 @@ const columnOptions ={
             dataIndex:"theater"
         },
         {
-            title:"Total Seat",
+            title:"Available Seat",
             dataIndex:"availableSeat"
         },
     ],
@@ -52,7 +49,7 @@ const detailColumns = (serviceType) => columnOptions[serviceType]
 
 
 export default function DetailList( props) {
-    const { queryOptions } = props;
+    const { queryOptions , detailRef } = props;
     const [columns,setColumns] = useState()
     
     useEffect(() => {
@@ -65,6 +62,7 @@ export default function DetailList( props) {
         <>
             {queryOptions !== undefined ?
             (<ProTable
+                actionRef={detailRef}
                 search={false}
                 options={false}
                 columns={columns}
