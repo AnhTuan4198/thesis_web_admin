@@ -15,9 +15,8 @@ const Model = {
       const response = yield call(fakeAccountLogin, payload);
       yield put({
         type: 'changeLoginStatus',
-        payload: response,
+        payload:{ ...response,type:"account"},
       }); // Login successfully
-
       if (response.status === 'ok') {
         const urlParams = new URL(window.location.href);
         const params = getPageQuery();

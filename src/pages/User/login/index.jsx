@@ -64,7 +64,7 @@ const Login = (props) => {
           />
         )}
             <ProFormText
-              name="userName"
+              name="email"
               fieldProps={{
                 size: 'large',
                 prefix: <UserOutlined className={styles.prefixIcon} />,

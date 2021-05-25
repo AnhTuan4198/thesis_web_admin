@@ -1,7 +1,9 @@
 import request from '@/utils/request';
 
+const prefix = "http://192.168.0.116:3030"
+
 export async function fakeAccountLogin(params) {
-  return request('/api/login/account', {
+  return request(`${prefix}/auth/signin`, {
     method: 'POST',
     data: params,
   });
