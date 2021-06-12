@@ -7,7 +7,7 @@ import MovieItem from './MovieItem';
 import ResortServices from './ResortServices';
 
 import {createService} from '../service';
-
+import styles from './FoodItems.less';
 
 export default function UpdateService(props) {
   const options = {
@@ -20,15 +20,13 @@ export default function UpdateService(props) {
       label: 'Add new movie',
     },
     Resort: {
-      serviceType: '',
+      serviceType: 'Resort',
       label: "Add new resort's service",
     },
   };
   const modalRef =useRef();
   const { addServiceVisible, setAddServiceVisible,serviceActionRef } = props;
   const [serviceTypeOption, setServiceTypeOption] = useState(options.Food);
-
-  
   return (
     <ModalForm
      formRef={modalRef}
@@ -56,7 +54,7 @@ export default function UpdateService(props) {
         }}
         radioType="button"
         fieldProps={{
-          value: serviceTypeOption,
+          value: serviceTypeOption.serviceType,
           onChange: (e) => {
             setServiceTypeOption(options[e.target.value]);
             modalRef.current?.resetFields();
@@ -64,8 +62,9 @@ export default function UpdateService(props) {
         }}
         options={Object.keys(options)}
       />
+
       <BasicField />
-      <div>
+      <div className={styles["pro-form-list-custom"]}>
         <ProFormList
         name="subService"
         width="md"
@@ -77,10 +76,13 @@ export default function UpdateService(props) {
               maxWidth:120,
           }
         }}
+        
       >
-          {serviceTypeOption.serviceType==="Food"  &&<FoodItems />}
+          {serviceTypeOption.serviceType==="Food"  && <FoodItems />}
           { serviceTypeOption.serviceType==="Cinema" && <MovieItem/>}
-          {serviceTypeOption.serviceType==="Resort"  &&<ResortServices/>}
+          {serviceTypeOption.serviceType === 'Resort'  &&<ResortServices/>}
+
+          
       </ProFormList>
       </div>
     </ModalForm>

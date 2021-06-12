@@ -8,7 +8,7 @@ export default function BasicFiled() {
     return (
         <>
            <ProFormText name="serviceName" label="Service Name" placeholder="Your service name" />
-           <ProFormText name="location" label="Service gate" placeholder="Your service locations" />
+           <ProFormText name="location" label="Service location" placeholder="Your service locations" />
             <ProFormCheckbox.Group
                 name="availableTicketType"
                 label="Ticket tier"

@@ -6,7 +6,7 @@ const columnOptions ={
     Food:[
         {
             title:"Food type",
-            dataIndex:'foodKind'
+            dataIndex:'foodType'
         },
         {
             title:"Name",
