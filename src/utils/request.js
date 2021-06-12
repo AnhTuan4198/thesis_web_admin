@@ -37,8 +37,9 @@ const errorHandler = (error) => {
   return response;
 };
 /** 配置request请求时的默认参数 */
-
+const prefix= 'http://157.230.194.236:80'
 const request = extend({
+  prefix,
   errorHandler,
   // 默认错误处理
   headers:{
