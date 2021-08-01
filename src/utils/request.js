@@ -38,6 +38,7 @@ const errorHandler = (error) => {
 };
 /** 配置request请求时的默认参数 */
 const prefix= 'http://157.230.194.236:80'
+// const prefix= 'http://192.168.0.226:3030';
 const request = extend({
   prefix,
   errorHandler,

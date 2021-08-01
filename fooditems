@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "60a4d4529f59b480aeadc58c"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d46dd2ac3280d7b8612f"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d51b4ebaca8239312af0"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d530abe13b82656e9520"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d56f49e52a82f1917ac4"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d575a75642830e8b8da8"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d57804ddb3832ae4e6b6"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d57ac452c9834063b84b"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d57e871611835c9b185b"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d58919fc99838671bcc8"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d5ac0bceda83e2f16615"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d6230a77e08509790bf2"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a4d62bb8c1dc852a693326"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a68fc63d3e5e16beefb0ac"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a68fcfe5633616ec90940f"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6902996fb8c171f9b8f95"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6902bb841cc173b48fbec"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a690314cdb641758252ab7"
+  },
+  "foodName": "BanhCanhS",
+  "price": 100000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6a620b9d2b85958f436b6"
+  },
+  "foodName": "Banh bun bo",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6a620b9d2b85958f436b7"
+  },
+  "foodName": "Banh canh",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4e5151b4b414a456d25f6"
+  },
+  "foodName": "Eggy  Waffle",
+  "foodType": "Sand wich",
+  "price": 50000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4eea31b4b414a456d25fb"
+  },
+  "foodName": "Margarita Popsicles",
+  "foodType": "Ice cream",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4eea31b4b414a456d25fc"
+  },
+  "foodName": "Cake caber dip",
+  "foodType": "Cake",
+  "price": 77000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4eea31b4b414a456d25fd"
+  },
+  "foodName": "Spaghetti tacos",
+  "foodType": "Noodle",
+  "price": 75000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4eea31b4b414a456d25fe"
+  },
+  "foodName": "Eggy waffle",
+  "foodType": "Sand wich",
+  "price": 50000,
+  "__v": 0
+}]

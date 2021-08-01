@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "60c4e6301b4b414a456d25f8"
+  },
+  "movieName": "Infinity train",
+  "performanceTime": {
+    "$date": "2021-07-22T16:51:42Z"
+  },
+  "theater": "Theater 2",
+  "availableSeat": 45,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4e6301b4b414a456d25f9"
+  },
+  "movieName": "Desert race",
+  "performanceTime": {
+    "$date": "2021-07-14T16:50:57Z"
+  },
+  "theater": "Theater 1",
+  "availableSeat": 45,
+  "__v": 0
+}]

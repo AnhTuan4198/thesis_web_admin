@@ -1,0 +1,4215 @@
+[{
+  "_id": {
+    "$oid": "60ab3112d421b54bee221d79"
+  },
+  "time": {
+    "$date": "2021-05-24T04:52:34.241Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31139a9e074c0311c0f0"
+  },
+  "time": {
+    "$date": "2021-05-24T04:52:35.335Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab312d34b8774c2608e664"
+  },
+  "time": {
+    "$date": "2021-05-24T04:53:01.277Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31316d9baf4c418f2c61"
+  },
+  "time": {
+    "$date": "2021-05-24T04:53:05.351Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31396b14bc4c61ad24ad"
+  },
+  "time": {
+    "$date": "2021-05-24T04:53:13.359Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab313ef04c084c7d13d2ce"
+  },
+  "time": {
+    "$date": "2021-05-24T04:53:18.308Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab317145d1d84cb2d2f7d5"
+  },
+  "time": {
+    "$date": "2021-05-24T04:54:09.721Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3178e60e234ccec6bc4b"
+  },
+  "time": {
+    "$date": "2021-05-24T04:54:16.261Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3185e2742a4cf9324c70"
+  },
+  "time": {
+    "$date": "2021-05-24T04:54:29.508Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3189909cb94d0f395c77"
+  },
+  "time": {
+    "$date": "2021-05-24T04:54:33.066Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31913fa8a94d2dbcea8a"
+  },
+  "time": {
+    "$date": "2021-05-24T04:54:41.375Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31cf638eb54da4a75384"
+  },
+  "time": {
+    "$date": "2021-05-24T04:55:43.252Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab31da05c2b34de2f9e402"
+  },
+  "time": {
+    "$date": "2021-05-24T04:55:54.093Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab320ebc1d594e0f6dbcd9"
+  },
+  "time": {
+    "$date": "2021-05-24T04:56:46.491Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab32730659604f419f26fe"
+  },
+  "time": {
+    "$date": "2021-05-24T04:58:27.663Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3282a797554f64f59689"
+  },
+  "time": {
+    "$date": "2021-05-24T04:58:42.746Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3468cc89dc563797dd5c"
+  },
+  "time": {
+    "$date": "2021-05-24T05:06:48.318Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab3feb02122a63f9941b6d"
+  },
+  "time": {
+    "$date": "2021-05-24T05:55:55.139Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab4003da7f5f642ce559e2"
+  },
+  "time": {
+    "$date": "2021-05-24T05:56:19.444Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab4051423b806516da8421"
+  },
+  "time": {
+    "$date": "2021-05-24T05:57:37.366Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab40695926a96539ef7ca3"
+  },
+  "time": {
+    "$date": "2021-05-24T05:58:01.839Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ab406ceb848c6554b7f1e3"
+  },
+  "time": {
+    "$date": "2021-05-24T05:58:04.519Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad149554339f46c4a415d8"
+  },
+  "time": {
+    "$date": "2021-05-25T15:15:32.881Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad14a18c882b46e0086636"
+  },
+  "time": {
+    "$date": "2021-05-25T15:15:45.672Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad18b58960504d0ac66e4b"
+  },
+  "time": {
+    "$date": "2021-05-25T15:33:08.891Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad18dc6bfc474d71b10a81"
+  },
+  "time": {
+    "$date": "2021-05-25T15:33:48.327Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad19158333554dfc0476c2"
+  },
+  "time": {
+    "$date": "2021-05-25T15:34:45.558Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad191b29397a4e181f48fe"
+  },
+  "time": {
+    "$date": "2021-05-25T15:34:51.274Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad194cf5549f4e7c20f4cb"
+  },
+  "time": {
+    "$date": "2021-05-25T15:35:40.385Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad19b4ff12b44f394dc2f5"
+  },
+  "time": {
+    "$date": "2021-05-25T15:37:24.538Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad19db322d6f4f8edc25a6"
+  },
+  "time": {
+    "$date": "2021-05-25T15:38:02.926Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad19e1bdb9ca4fc34ba03f"
+  },
+  "time": {
+    "$date": "2021-05-25T15:38:09.831Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1a8cd1157051686e22e1"
+  },
+  "time": {
+    "$date": "2021-05-25T15:41:00.347Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1b9b6f101b52e15dc535"
+  },
+  "time": {
+    "$date": "2021-05-25T15:45:31.454Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1c48b333a354986c3df1"
+  },
+  "time": {
+    "$date": "2021-05-25T15:48:24.092Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1c98826a3f552ce17a2a"
+  },
+  "time": {
+    "$date": "2021-05-25T15:49:44.388Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1ca11c9792554c1a1ff0"
+  },
+  "time": {
+    "$date": "2021-05-25T15:49:53.452Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1d8b3bb9df56be5284af"
+  },
+  "time": {
+    "$date": "2021-05-25T15:53:47.749Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1d9d91f0a156e84b0408"
+  },
+  "time": {
+    "$date": "2021-05-25T15:54:04.942Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1df870973057b2a35ed2"
+  },
+  "time": {
+    "$date": "2021-05-25T15:55:36.270Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1e28b57cd55810fa37b9"
+  },
+  "time": {
+    "$date": "2021-05-25T15:56:24.597Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1e334e397c583f3ac4d0"
+  },
+  "time": {
+    "$date": "2021-05-25T15:56:35.058Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1e55dde4fc5898ae17b5"
+  },
+  "time": {
+    "$date": "2021-05-25T15:57:09.851Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1ea9011def596380d05a"
+  },
+  "time": {
+    "$date": "2021-05-25T15:58:33.372Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1ef01304d659ec3f540f"
+  },
+  "time": {
+    "$date": "2021-05-25T15:59:44.252Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1f831771795b49fd7abb"
+  },
+  "time": {
+    "$date": "2021-05-25T16:02:11.759Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1f8fb60e515b881064ae"
+  },
+  "time": {
+    "$date": "2021-05-25T16:02:23.231Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1f99dd0ada5bace87156"
+  },
+  "time": {
+    "$date": "2021-05-25T16:02:33.408Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1fc3694b925c067adcf0"
+  },
+  "time": {
+    "$date": "2021-05-25T16:03:15.221Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1fe7c0a4515c53d3517e"
+  },
+  "time": {
+    "$date": "2021-05-25T16:03:50.944Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1ff17cc41a5c72276b0c"
+  },
+  "time": {
+    "$date": "2021-05-25T16:04:01.713Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad1fff53a8195cab297068"
+  },
+  "time": {
+    "$date": "2021-05-25T16:04:14.919Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad201aa97c265ced2f99a4"
+  },
+  "time": {
+    "$date": "2021-05-25T16:04:41.934Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad206852a3e95dc2539642"
+  },
+  "time": {
+    "$date": "2021-05-25T16:06:00.033Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad20b04f26355e408f2b96"
+  },
+  "time": {
+    "$date": "2021-05-25T16:07:12.448Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad22eb4fa6eb6254429d5f"
+  },
+  "time": {
+    "$date": "2021-05-25T16:16:43.645Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad231bf51b1662e8f14f7a"
+  },
+  "time": {
+    "$date": "2021-05-25T16:17:31.011Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad23ce5c2168645a1abf78"
+  },
+  "time": {
+    "$date": "2021-05-25T16:20:30.255Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad240ea3cf6f651c3054aa"
+  },
+  "time": {
+    "$date": "2021-05-25T16:21:33.848Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad249033d117666798c7ac"
+  },
+  "time": {
+    "$date": "2021-05-25T16:23:44.188Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2528e0ecfe6785bab13f"
+  },
+  "time": {
+    "$date": "2021-05-25T16:26:15.907Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2570ae8edf68690cd42d"
+  },
+  "time": {
+    "$date": "2021-05-25T16:27:28.484Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad25bc834fee69177b5760"
+  },
+  "time": {
+    "$date": "2021-05-25T16:28:44.149Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad261a4add4769da449002"
+  },
+  "time": {
+    "$date": "2021-05-25T16:30:18.376Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad266b058cdb6a9871ef82"
+  },
+  "time": {
+    "$date": "2021-05-25T16:31:39.130Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad26879769806ac94b436d"
+  },
+  "time": {
+    "$date": "2021-05-25T16:32:07.135Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad26deba445d6ba23b1750"
+  },
+  "time": {
+    "$date": "2021-05-25T16:33:34.103Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad271eaea3ca6c13876348"
+  },
+  "time": {
+    "$date": "2021-05-25T16:34:38.771Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2735edddf36c4cca40cc"
+  },
+  "time": {
+    "$date": "2021-05-25T16:35:01.496Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2764408fb76caa18ac7b"
+  },
+  "time": {
+    "$date": "2021-05-25T16:35:48.276Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad27746244fd6cca0cdfa2"
+  },
+  "time": {
+    "$date": "2021-05-25T16:36:04.417Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad278d2c392e6d27eba42a"
+  },
+  "time": {
+    "$date": "2021-05-25T16:36:29.763Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad281e6992706e8b806f6f"
+  },
+  "time": {
+    "$date": "2021-05-25T16:38:54.286Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad282035fded6ea6305732"
+  },
+  "time": {
+    "$date": "2021-05-25T16:38:56Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2aa04e022f745c9c1221"
+  },
+  "time": {
+    "$date": "2021-05-25T16:49:36.796Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2ad84eff6974e0832f22"
+  },
+  "time": {
+    "$date": "2021-05-25T16:50:32.632Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2b0da480a7756929b147"
+  },
+  "time": {
+    "$date": "2021-05-25T16:51:24.942Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2b4f60c844760879bd06"
+  },
+  "time": {
+    "$date": "2021-05-25T16:52:31.083Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2c0a1b3b4177abdca8f9"
+  },
+  "time": {
+    "$date": "2021-05-25T16:55:38.845Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2c3328ea6a78124f20e9"
+  },
+  "time": {
+    "$date": "2021-05-25T16:56:19.137Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2c5f29697d787b00ad85"
+  },
+  "time": {
+    "$date": "2021-05-25T16:57:02.875Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2c9108dac0790917f202"
+  },
+  "time": {
+    "$date": "2021-05-25T16:57:53.220Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2cbf4983b3798263c71a"
+  },
+  "time": {
+    "$date": "2021-05-25T16:58:38.849Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2d6285db2d7a834aefee"
+  },
+  "time": {
+    "$date": "2021-05-25T17:01:22.353Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2d8aaed01f7ae9844955"
+  },
+  "time": {
+    "$date": "2021-05-25T17:02:02.170Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2dcd5435817bc49609f3"
+  },
+  "time": {
+    "$date": "2021-05-25T17:03:09.024Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2ea298a1467e345b52e6"
+  },
+  "time": {
+    "$date": "2021-05-25T17:06:42.069Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f3b5aff3f7f5c12dd92"
+  },
+  "time": {
+    "$date": "2021-05-25T17:09:14.876Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f41ecf4347f8e1d2232"
+  },
+  "time": {
+    "$date": "2021-05-25T17:09:21.396Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f4218e41e7fa34e7831"
+  },
+  "time": {
+    "$date": "2021-05-25T17:09:22.616Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f55657bc97fe8c3defd"
+  },
+  "time": {
+    "$date": "2021-05-25T17:09:41.790Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f5aea6e858006ef431e"
+  },
+  "time": {
+    "$date": "2021-05-25T17:09:46.217Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2f76fe9e39804f4d9e90"
+  },
+  "time": {
+    "$date": "2021-05-25T17:10:13.917Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad2fdacf228f81139d8218"
+  },
+  "time": {
+    "$date": "2021-05-25T17:11:53.907Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad3031e08ce4819a0c71a3"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:21.161Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad30355c4a6081c8497901"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:25.346Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad303c71c6f081f1e501cb"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:32.525Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad303e72092982069a82b0"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:34.161Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad304156f19b8233a81e75"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:37.723Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad304b7dfaec825500d279"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:47.204Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad304f76d3b68271521b98"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:51.380Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad3050e5265c82863cb9b2"
+  },
+  "time": {
+    "$date": "2021-05-25T17:13:52.799Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad30916b42ea82e8a896bf"
+  },
+  "time": {
+    "$date": "2021-05-25T17:14:57.305Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad30cdc2ef1e8370942ada"
+  },
+  "time": {
+    "$date": "2021-05-25T17:15:57.628Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad30e01b1f6183b4fac27f"
+  },
+  "time": {
+    "$date": "2021-05-25T17:16:16.074Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad3108b88fae83fa723bbd"
+  },
+  "time": {
+    "$date": "2021-05-25T17:16:55.912Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad312025a29a8433e2b529"
+  },
+  "time": {
+    "$date": "2021-05-25T17:17:19.901Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad316c6c58fe84c0870761"
+  },
+  "time": {
+    "$date": "2021-05-25T17:18:36.041Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad31b31977f5856c7f58b3"
+  },
+  "time": {
+    "$date": "2021-05-25T17:19:46.879Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad31fcfe9b3185e1046d8c"
+  },
+  "time": {
+    "$date": "2021-05-25T17:21:00.196Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ad325e840233868f49c779"
+  },
+  "time": {
+    "$date": "2021-05-25T17:22:38.581Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef31c674a53fd253c99b"
+  },
+  "time": {
+    "$date": "2021-05-26T06:48:17.212Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef5ab70927401781d7d7"
+  },
+  "time": {
+    "$date": "2021-05-26T06:48:58.541Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef5ee695014033c15c13"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:02.491Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef6560636c4052d4b1c7"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:09.156Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef6a32c69f40766009c7"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:13.825Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef7433a85f40947d8e13"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:24.498Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef787dd71040b0a74802"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:28.622Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef7e9e8a5440d344a684"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:33.959Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef80cf8a6140ed2ed2da"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:36.427Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef8f33342c410a20ed91"
+  },
+  "time": {
+    "$date": "2021-05-26T06:49:51.692Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adef9a72468c413bbc5daa"
+  },
+  "time": {
+    "$date": "2021-05-26T06:50:02.431Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefa984da63415717d9ed"
+  },
+  "time": {
+    "$date": "2021-05-26T06:50:16.998Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefb3dab194417334c236"
+  },
+  "time": {
+    "$date": "2021-05-26T06:50:27.746Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefbfcc908d41a3c52bc2"
+  },
+  "time": {
+    "$date": "2021-05-26T06:50:39.775Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefd9400b2c41c7e7a274"
+  },
+  "time": {
+    "$date": "2021-05-26T06:51:05.697Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefdc0fa9cf41e30df1c4"
+  },
+  "time": {
+    "$date": "2021-05-26T06:51:07.912Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adefe0d6c40541f8985225"
+  },
+  "time": {
+    "$date": "2021-05-26T06:51:11.896Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf05aa52803430240f12e"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:13.920Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf05b8ad2a5431da2b970"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:15.654Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf05e5fd69843329bb1dd"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:17.969Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf06bf699904356890d2a"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:31.065Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf0867e9d1f43a1c41cef"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:58.254Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf087fc6e1c43be5ceab5"
+  },
+  "time": {
+    "$date": "2021-05-26T06:53:59.489Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf858b660dc59e10b4b22"
+  },
+  "time": {
+    "$date": "2021-05-26T07:27:19.853Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adf866f783f25a222ef628"
+  },
+  "time": {
+    "$date": "2021-05-26T07:27:34.076Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa3a98b5935bc3877289"
+  },
+  "time": {
+    "$date": "2021-05-26T07:35:22.502Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa3f4c2efb5bdeed4f2e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:35:26.848Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa47fae38e5c1e75d417"
+  },
+  "time": {
+    "$date": "2021-05-26T07:35:35.271Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa5b1feee25c5a7da03f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:35:55.423Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa5f8c74d95c6faa9584"
+  },
+  "time": {
+    "$date": "2021-05-26T07:35:59.276Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa646b525e5c94c4e4bb"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:04.068Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa66052b085caed334a5"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:06.076Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa673fa8ac5cc53f34b0"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:07.775Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa774744945ce1bda5f4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:22.910Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa7840d37a5cfd400cc7"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:24.601Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa7c5865775d1839e886"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:27.854Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa810f37855d357de77b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:32.795Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa82a6f1655d4a320897"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:34.012Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfa8e454fd05d6b0279be"
+  },
+  "time": {
+    "$date": "2021-05-26T07:36:46.725Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfab3aaca195e1b557f04"
+  },
+  "time": {
+    "$date": "2021-05-26T07:37:23.608Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfab59e3f565e3537c79e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:37:25.672Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfabe307c475e54d9f3da"
+  },
+  "time": {
+    "$date": "2021-05-26T07:37:34.447Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfaccd5760c5e736b9673"
+  },
+  "time": {
+    "$date": "2021-05-26T07:37:48.770Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfad9199e095e90840da2"
+  },
+  "time": {
+    "$date": "2021-05-26T07:38:01.526Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfae0ef97cb5eaeabebe4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:38:08.031Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfae2dc25665ec994d672"
+  },
+  "time": {
+    "$date": "2021-05-26T07:38:10.172Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb0bf9c4fe5f4f3651d1"
+  },
+  "time": {
+    "$date": "2021-05-26T07:38:51.029Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb0dd5f6a25f6a9ab1e6"
+  },
+  "time": {
+    "$date": "2021-05-26T07:38:53.639Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb18aa71ed5f9097c61a"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:04.493Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb1d68392f5fb0a5f9ef"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:09.572Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb1f0262b85fcc9687c0"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:11.586Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb214c11a15fe259a3ea"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:12.723Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb3224402e60041b3a7f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:30.769Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb3fd0270b602368bf83"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:43.765Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb46df0cb6603e5173d7"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:50.525Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb48a3fe1e605ca17822"
+  },
+  "time": {
+    "$date": "2021-05-26T07:39:52.589Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb800eb17460a985e81b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:40:48.401Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb8eb001c960de5385ad"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:02.622Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb92ef2d1960f992dde9"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:06.129Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb939baa33610f6ebfdf"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:07.659Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb97eaa782612a1618d3"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:11.138Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfb98640ee4613fe26e1d"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:12.469Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfba30682c0616abff237"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:23.025Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfba5e4c010617e4d73f3"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:25.081Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbb0cc463561b2ed8f37"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:36.138Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbb102996d61cc1b9344"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:37.508Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbc802a68161fa844915"
+  },
+  "time": {
+    "$date": "2021-05-26T07:41:59.885Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbcf038d0e6228258680"
+  },
+  "time": {
+    "$date": "2021-05-26T07:42:06.909Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbd44615016259e1cfc4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:42:11.865Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfbfa889c1962c690be98"
+  },
+  "time": {
+    "$date": "2021-05-26T07:42:50.438Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc0b0e6097632f07b728"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:06.801Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc0c44c748634ba3ea7e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:08.543Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc158e06d26366ebf95f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:17.312Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc1ddbe26f63a1cac1a4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:25.029Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc21803ec863b8fcc900"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:29.298Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc28c3ce4563f8fce096"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:36.654Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc2a94c5d4640c1b1001"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:38.685Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc2bc3c70364220cb567"
+  },
+  "time": {
+    "$date": "2021-05-26T07:43:39.743Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc44d5252e6447af981b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:44:04.321Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc47f9725d64636d4025"
+  },
+  "time": {
+    "$date": "2021-05-26T07:44:07.555Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc4bffbfa3647eeae117"
+  },
+  "time": {
+    "$date": "2021-05-26T07:44:11.235Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc5399442d64d6e602a4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:44:19.407Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc855f8302652be924f0"
+  },
+  "time": {
+    "$date": "2021-05-26T07:45:08.742Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc96afe27865a3c20ada"
+  },
+  "time": {
+    "$date": "2021-05-26T07:45:26.203Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfc9844b34f65b8e37deb"
+  },
+  "time": {
+    "$date": "2021-05-26T07:45:28.339Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcad093688660d841a35"
+  },
+  "time": {
+    "$date": "2021-05-26T07:45:49.509Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcae5d5ce26622777581"
+  },
+  "time": {
+    "$date": "2021-05-26T07:45:50.668Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcc8f0a1996649926f49"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:16.435Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcca08d10066640970cd"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:18.256Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcd254bf29668042472c"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:26.761Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcd6cdcb47669b53d387"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:30.593Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfce22b0a6a66c4371720"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:42.157Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfce60ddcb066de6da864"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:46.511Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfce7205b3966f350b3eb"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:47.473Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcedc97075670ea7923b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:52.869Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfcf2dbde836729fc75a6"
+  },
+  "time": {
+    "$date": "2021-05-26T07:46:58.169Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd057072a1677bcc8b17"
+  },
+  "time": {
+    "$date": "2021-05-26T07:47:16.977Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd1cbfc2e367fe92d4f8"
+  },
+  "time": {
+    "$date": "2021-05-26T07:47:39.917Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd1e6952c16818b8d5fd"
+  },
+  "time": {
+    "$date": "2021-05-26T07:47:42.211Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd316251ba68551382ef"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:01.252Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd38fb482d68759d3eea"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:08.519Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd3f20524f68a6a908a6"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:14.789Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd443e03ef68dc219827"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:20.711Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd4955297468f71a6aca"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:25.669Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfd4d386550690c14ef98"
+  },
+  "time": {
+    "$date": "2021-05-26T07:48:29.127Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdb0c7c7ae69664bd5c1"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:08.101Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdb3c5ef7e69820fba78"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:11.201Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdb5fb31e76997f05ef8"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:12.960Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdb94e95cf69b45f7b5b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:17.012Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdbca4ada669cfaf6c98"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:19.865Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdc1e920e169ea592c74"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:25.490Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdc4b8551d69ffd64080"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:28.214Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdc6854eba6a1b7c7fd8"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:30.266Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfdd9527a4d6a3a37e53c"
+  },
+  "time": {
+    "$date": "2021-05-26T07:50:49.742Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe07a260cd6ab62ce886"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:35.623Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe0cb8c5006ad16a7094"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:39.874Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe0db8b78e6ae67f81a4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:41.688Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe10915a496b01cd79fe"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:44.070Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe1927d6e06b2025b1b6"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:53.034Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe1e9fe2536b3b8eb56e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:51:57.892Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe227e6e186b57e56aa9"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:02.077Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe27bec3976b975cc1f5"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:06.837Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe29d45ae36bc41f6e68"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:09.330Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe30b200b16bfb067d3c"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:16.710Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe32b4704d6c110e693b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:17.827Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe47e55f756c5c679c7c"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:38.832Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe4d03fd0c6c9cbbd581"
+  },
+  "time": {
+    "$date": "2021-05-26T07:52:45.764Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe64e1fd016cb4d4dd09"
+  },
+  "time": {
+    "$date": "2021-05-26T07:53:08.179Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe78e6d7296cd2b9a37e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:53:28.627Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe7e748eb06d00fb1cc6"
+  },
+  "time": {
+    "$date": "2021-05-26T07:53:34.191Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe867c4ff46d1fd3ed57"
+  },
+  "time": {
+    "$date": "2021-05-26T07:53:42.373Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfe9d5337126d7590b24a"
+  },
+  "time": {
+    "$date": "2021-05-26T07:54:04.854Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfea1ab72c86d90412620"
+  },
+  "time": {
+    "$date": "2021-05-26T07:54:09.218Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfeb1f696646dd4dd8a38"
+  },
+  "time": {
+    "$date": "2021-05-26T07:54:24.865Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfebe00e5286e31cf11ca"
+  },
+  "time": {
+    "$date": "2021-05-26T07:54:38.310Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfed63c459c6e7038f972"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:02.450Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfedd6f27ec6eb627603f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:08.931Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfef2c3d9016efe1d52be"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:30.560Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfefe0badf26f2fd7fb4b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:41.961Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff00b901e06f4a560508"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:44.219Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff092867d46f659c3848"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:53.164Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff0fccb2316f9076a588"
+  },
+  "time": {
+    "$date": "2021-05-26T07:55:59.766Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff130230316fa526726e"
+  },
+  "time": {
+    "$date": "2021-05-26T07:56:02.946Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff184f33846fc16d178f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:56:08.411Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff4022385c703ab19bfd"
+  },
+  "time": {
+    "$date": "2021-05-26T07:56:47.959Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff42525619704f95f21f"
+  },
+  "time": {
+    "$date": "2021-05-26T07:56:50.148Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff57bb3d6670926d9377"
+  },
+  "time": {
+    "$date": "2021-05-26T07:57:11.005Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff5d4c2b8770c24b59ac"
+  },
+  "time": {
+    "$date": "2021-05-26T07:57:16.977Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff622454067105c76efe"
+  },
+  "time": {
+    "$date": "2021-05-26T07:57:21.873Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff7b2e37aa712ae2ff26"
+  },
+  "time": {
+    "$date": "2021-05-26T07:57:47.740Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff82bdc7187148c87eb3"
+  },
+  "time": {
+    "$date": "2021-05-26T07:57:53.937Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adff9fb8fb65716f2c02c2"
+  },
+  "time": {
+    "$date": "2021-05-26T07:58:23.681Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adffaeea7a46718e51d7ac"
+  },
+  "time": {
+    "$date": "2021-05-26T07:58:38.334Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adffb6b74a0b71b878cdfe"
+  },
+  "time": {
+    "$date": "2021-05-26T07:58:46.015Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adffc7f39a1271d632c3c0"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:02.995Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adffd98b1ad47200f1bf50"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:21.698Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adffe61439eb7242c1821b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:34.706Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfff0bc651e725d5125fe"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:44.431Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfff23b8e8d727821362b"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:46.787Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfff549dc8a728da5a2b4"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:49.107Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60adfff896d01e72abde0c84"
+  },
+  "time": {
+    "$date": "2021-05-26T07:59:52.794Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae001522817e72ee6b21fa"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:21.682Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae0019a179b5730fb26afe"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:25.318Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae001e63254f732c042f55"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:29.846Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae0022b1a3e2735056697d"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:34.648Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae0029ac3368736acf6263"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:41.608Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae003a2c66d773ae1b22ba"
+  },
+  "time": {
+    "$date": "2021-05-26T08:00:58.317Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae003c1d6f9373c92405e9"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:00.351Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00424c82e173f42bdb11"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:06.724Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae004530b96e740a3254b6"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:09.544Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00482db6bc742df38d37"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:12.212Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae004b0bb616744832f807"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:15.024Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00516f42c074719dd552"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:21.133Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae005ab89887749158da4d"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:29.815Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae006276b9b674ac0e5dc1"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:38.205Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae0076a723c274ced217e7"
+  },
+  "time": {
+    "$date": "2021-05-26T08:01:58.242Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae007a23a65874ea0a99d7"
+  },
+  "time": {
+    "$date": "2021-05-26T08:02:02.145Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae008f6be60675531720ff"
+  },
+  "time": {
+    "$date": "2021-05-26T08:02:23.169Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00a238a061757461efba"
+  },
+  "time": {
+    "$date": "2021-05-26T08:02:42.468Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00b32441da7592447d7f"
+  },
+  "time": {
+    "$date": "2021-05-26T08:02:58.869Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00b8e3f9af75b23bf3b4"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:04.454Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00c2eba56775ced26514"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:13.930Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00c57b48b575ea31a48d"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:17.048Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00d5230b6076072dd3db"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:32.808Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00d7706b5a762254947f"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:35.683Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00dc760462763d723f1a"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:40.131Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00e4418970765810ebba"
+  },
+  "time": {
+    "$date": "2021-05-26T08:03:47.929Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ae00f1c235477680c323e7"
+  },
+  "time": {
+    "$date": "2021-05-26T08:04:01.220Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60af10425566431fa7cf686d"
+  },
+  "time": {
+    "$date": "2021-05-27T03:21:37.791Z"
+  },
+  "serviceName": "Vesda's Kitchen",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60af6167cb3f0d1d49980e48"
+  },
+  "time": {
+    "$date": "2021-05-27T09:06:37.052Z"
+  },
+  "serviceName": "Namase Omar's",
+  "ticketCode": "1degkp1dg1kh",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "validateStatus": false,
+  "__v": 0
+}]

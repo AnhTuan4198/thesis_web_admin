@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "60aa7d22d5728efa18b19c8e"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T16:01:35.729Z"
+  },
+  "startTime": {
+    "$date": "2021-05-25T00:00:00Z"
+  },
+  "endTime": {
+    "$date": "2021-05-28T00:00:00Z"
+  },
+  "ticketType": "Gold",
+  "ticketCode": "1degkp1dg1kh",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aa7d22d5728efa18b19c8f"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T16:01:35.729Z"
+  },
+  "startTime": {
+    "$date": "2021-05-25T00:00:00Z"
+  },
+  "endTime": {
+    "$date": "2021-05-28T00:00:00Z"
+  },
+  "ticketType": "Gold",
+  "ticketCode": "1degkp1dg1ky",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aa7d37d5728efa18b19c90"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T16:01:35.729Z"
+  },
+  "startTime": {
+    "$date": "2021-05-25T00:00:00Z"
+  },
+  "endTime": {
+    "$date": "2021-05-28T00:00:00Z"
+  },
+  "ticketType": "Standard",
+  "ticketCode": "1degkp1dghr7",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aa7eead5728efa18b19c91"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T16:01:35.729Z"
+  },
+  "startTime": {
+    "$date": "2021-05-25T00:00:00Z"
+  },
+  "endTime": {
+    "$date": "2021-05-28T00:00:00Z"
+  },
+  "ticketType": "Platinum",
+  "ticketCode": "1degkp1dptka",
+  "user": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "__v": 0
+}]

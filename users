@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6076780b1f44904322698076"
+  },
+  "email": "test4@gmail.com",
+  "password": "$2b$10$AorXHX6paF6yAf9peshxgel2OhrSDOSfiiyGHjVAZlxKijJwal92i",
+  "userName": "hdhdj",
+  "gender": "male",
+  "__v": 0,
+  "notificationToken": "ExponentPushToken[lQxcCAHPquufOlvsKSBr2p]"
+},{
+  "_id": {
+    "$oid": "60ac74753618072d16de27e5"
+  },
+  "currentAuthority": "admin",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$0t3CbbqitP.1XIF7/67BueRUCatktc3F2mSEbVC9WuTREztOVmP76",
+  "userName": "admin",
+  "gender": "male",
+  "__v": 0
+}]

@@ -1,0 +1,290 @@
+[{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da42"
+  },
+  "availableTicketType": [
+    "Standard",
+    "",
+    ""
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Vesda's Kitchen",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da43"
+  },
+  "availableTicketType": [
+    "Gold"
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "L'Italiano",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da44"
+  },
+  "availableTicketType": [
+    "Platinum"
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Namase Omar's",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da45"
+  },
+  "availableTicketType": [
+    null,
+    null,
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "Casa Tapas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da46"
+  },
+  "availableTicketType": [
+    null,
+    null,
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "Mahazaja Indian",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da47"
+  },
+  "availableTicketType": [
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Limonceno",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da48"
+  },
+  "availableTicketType": [
+    null,
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Luna Pub",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da49"
+  },
+  "availableTicketType": [
+    null,
+    null,
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "Western",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da4a"
+  },
+  "availableTicketType": [
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "Cessie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a017c9dd11405e9af6da4b"
+  },
+  "availableTicketType": [
+    null,
+    null
+  ],
+  "updateAt": {
+    "$date": "2021-05-15T18:49:44.831Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-15T18:49:45.010Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Resort",
+  "serviceName": "Alisea",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6a620b9d2b85958f436b8"
+  },
+  "subService": [
+    {
+      "$oid": "60a6a620b9d2b85958f436b6"
+    },
+    {
+      "$oid": "60a6a620b9d2b85958f436b7"
+    }
+  ],
+  "availableTicketType": [
+    "Standard"
+  ],
+  "updateAt": {
+    "$date": "2021-05-20T18:10:37.052Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-20T18:10:40.464Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Papa Kitchen",
+  "location": "Sector1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4e5151b4b414a456d25f7"
+  },
+  "subService": [
+    {
+      "$oid": "60c4e5151b4b414a456d25f6"
+    }
+  ],
+  "availableTicketType": [
+    "Standard",
+    "Gold"
+  ],
+  "updateAt": {
+    "$date": "2021-06-12T16:43:05.718Z"
+  },
+  "createdAt": {
+    "$date": "2021-06-12T16:47:17.486Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Masei",
+  "location": "Sector1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4e6301b4b414a456d25fa"
+  },
+  "subService": [
+    {
+      "$oid": "60c4e6301b4b414a456d25f8"
+    },
+    {
+      "$oid": "60c4e6301b4b414a456d25f9"
+    }
+  ],
+  "availableTicketType": [
+    "Gold"
+  ],
+  "updateAt": {
+    "$date": "2021-06-12T16:43:05.718Z"
+  },
+  "createdAt": {
+    "$date": "2021-06-12T16:52:00.096Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Cinema",
+  "serviceName": "3D theater",
+  "location": "Sector 1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c4eea31b4b414a456d25ff"
+  },
+  "subService": [
+    {
+      "$oid": "60c4eea31b4b414a456d25fb"
+    },
+    {
+      "$oid": "60c4eea31b4b414a456d25fc"
+    },
+    {
+      "$oid": "60c4eea31b4b414a456d25fd"
+    },
+    {
+      "$oid": "60c4eea31b4b414a456d25fe"
+    }
+  ],
+  "availableTicketType": [
+    "Standard",
+    "Gold"
+  ],
+  "updateAt": {
+    "$date": "2021-06-12T16:43:05.718Z"
+  },
+  "createdAt": {
+    "$date": "2021-06-12T17:28:03.697Z"
+  },
+  "createdBy": 1,
+  "serviceType": "Food",
+  "serviceName": "Mashei Ole",
+  "location": "Sector 1",
+  "__v": 0
+}]
